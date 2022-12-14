@@ -487,7 +487,6 @@ a {
 
 .footer-logo-wrap {
     font-weight: 500;
-
 }
 
 .footer-logo-wrap>a {
@@ -507,6 +506,11 @@ a {
 .navigation-wrap {
     margin-right: 30px;
     cursor: pointer;
+}
+
+.navigation-wrap>a {
+    color: #FFFFFF;
+
 }
 
 .social-media {
@@ -536,10 +540,6 @@ a {
 .footer-other>*:not(:last-child) {
     margin-right: 20px;
 }
-
-.footer-policy {}
-
-.footer-service {}
 
 @media (max-width: 490px) {
     .footer-nav {
