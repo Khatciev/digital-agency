@@ -16,9 +16,7 @@
     <main class="main">
         <!-- HEADER -->
         <header class="header">
-            <div>
-                <a href="#"><img style="width:100%" src="./assets/header/logo.svg"></a>
-            </div>
+            <a href="#"><img style="width:100%" src="./assets/header/logo.svg"></a>
             <nav class="header__nav-links">
                 <li><a class="nav-link" href="#">Home</a></li>
                 <li><a class="nav-link" href="#">Your benefits</a></li>
@@ -27,7 +25,7 @@
                 <li><a class="nav-link" href="#">Testimonials</a></li>
                 <li><a class="nav-link" href="#">Start a project</a></li>
             </nav>
-            <button class="btn"><a href="#">Get started</a></button>
+            <button class="btn"><a class="btn-text" href="#">Get started</a></button>
         </header>
         <!-- HEADER -->
         <!-- ABOUT -->
@@ -45,72 +43,73 @@
         <!-- FEATURES -->
         <section class="features container">
             <div class="container-features">
-                <div class="features-title">features</div>
-                <div class="features-subtitle">We are here to help you with</div>
+                <h5 class="features-title">features</h5>
+                <h2 class="features-subtitle">We are here to help you with</h2>
+
                 <div class="features-cards">
-                    <article class="features-card">
-                        <div style="background-color:#FFE7DB;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/business.svg">
+                    <article class="features__card">
+                        <div style="background-color:#FFE7DB;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/business.svg">
                         </div>
-                        <h3 class="card-about">Grow your business</h3>
-                        <p class="card-text">
+                        <h3 class="features__card-about">Grow your business</h3>
+                        <p class="features__card-text">
                             The magic wand for success is in figuring out how to bring in the profits and ensure the
                             capacity needed to sustain that growth for posterity.
                         </p>
                     </article>
 
-                    <article class="features-card">
-                        <div style="background-color:#E7F2EF;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/sales.svg">
+                    <article class="features__card">
+                        <div style="background-color:#E7F2EF;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/sales.svg">
                         </div>
-                        <h3 class="card-about">Drive more sales</h3>
-                        <p class="card-text">
+                        <h3 class="features__card-about">Drive more sales</h3>
+                        <p class="features__card-text">
                             A potential customer, once lost, is hard to retain back. But keeping some critical
                             factors
                             in mind, we can, for sure, use these loyalty programs as customer retention tools.
                         </p>
                     </article>
 
-                    <article class="features-card">
-                        <div style="background-color:#FAF3D8;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/experts.svg">
+                    <article class="features__card">
+                        <div style="background-color:#FAF3D8;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/experts.svg">
                         </div>
-                        <h3 class="card-about">Handle by Expert</h3>
-                        <p class="card-text">
+                        <h3 class="features__card-about">Handle by Expert</h3>
+                        <p class="features__card-text">
                             We know how we candevelop deep, trust-based relationships with our clients, and work
                             together more collaboratively
                         </p>
                     </article>
 
-                    <article class="features-card">
-                        <div style="background-color:#C0F2EF;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/research.svg">
+                    <article class="features__card">
+                        <div style="background-color:#EDE7F2;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/research.svg">
                         </div>
-                        <h3 class="card-about">UX Research</h3>
-                        <p class="card-text">
-                            UX research is the systematic study of target users and their requirements, to add
-                            realistic
+                        <h3 class="features__card-about">UX Research</h3>
+                        <p class="features__card-text">
+                            UX research is the systematic study of target users and their requirements, to add realistic
                             contexts and insights to design processes.
                         </p>
                     </article>
 
-                    <article class="features-card">
-                        <div style="background-color:#EDE7F2;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/audit.svg">
+
+                    <article class="features__card">
+                        <div style="background-color:#EDE7F2;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/audit.svg">
                         </div>
-                        <h3 class="card-about">Business Audit</h3>
-                        <p class="card-text">
+                        <h3 class="features__card-about">Business Audit</h3>
+                        <p class="features__card-text">
                             An audit examines your business's financial records to verify they are accurate. This is
                             done through a systematic review of your transactions.
                         </p>
                     </article>
 
-                    <article class="features-card">
-                        <div style="background-color:#D8F0FA;" class="card__icon-bg">
-                            <img class="card__icon" src="./assets/features/icons/tracking.svg">
+                    <article class="features__card">
+                        <div style="background-color:#D8F0FA;" class="features__card-iconbg">
+                            <img class="features__card-icon" src="./assets/features/icons/tracking.svg">
                         </div>
-                        <h3 class="card-about">Data tracking</h3>
-                        <p class="card-text">
+                        <h3 class="features__card-about">Data tracking</h3>
+                        <p class="features__card-text">
                             The hardware and software, which when used together allows you to know where something
                             is at
                             any point in time
@@ -134,9 +133,7 @@
             </div>
             <div class="process-cards">
                 <div class="process-card">
-                    <div>
-                        <img class="process-img" src="./assets/process/images/audit.png" />
-                    </div>
+                    <img class="process-img" src="./assets/process/images/audit.png" />
                     <article class="process-description">
                         <div style="background-color: #DAE6FF;" class="description__bg-icon">
                             <img class="description__icon" src="./assets/process/icons/search.svg" />
@@ -151,9 +148,7 @@
                 </div>
 
                 <div class="process-card">
-                    <div>
-                        <img class="process-img" src="./assets/process/images/tracking.png" />
-                    </div>
+                    <img class="process-img" src="./assets/process/images/tracking.png" />
                     <article class="process-description">
                         <div style="background-color: #DAE6FF;" class="description__bg-icon">
                             <img class="description__icon" src="./assets/process/icons/search.svg" />
@@ -168,9 +163,7 @@
                 </div>
 
                 <div class="process-card">
-                    <div>
-                        <img class="process-img" src="./assets/process/images/results.png" />
-                    </div>
+                    <img class="process-img" src="./assets/process/images/results.png" />
                     <article class="process-description">
                         <div style="background-color: #DAE6FF;" class="description__bg-icon">
                             <img class="description__icon" src="./assets/process/icons/search.svg" />
@@ -190,42 +183,43 @@
         <section class="brands">
             <div class="container-brands container">
                 <div class="brands-header">
-                    <h3 class="brands-title">BRANDS</h3>
+                    <h5 class="brands-title">BRANDS</h5>
                     <h3 class="brands-text">We work with thousands of the world’s leading brands</h3>
 
                 </div>
-                <div class="brands-logos">
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/mazda.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/atlassian.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/magazin.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/qantas.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/Rectangle 21.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/nitro.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/cssmania.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/popsugar.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/talantbin.png" alt="logo">
-                    </div>
-                    <div class="brands-wrap">
-                        <img class="brands-logo" src="./assets/brands/logos/civicrm.png" alt="logo">
-                    </div>
-                </div>
+
+                <ul class="brands-list">
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/mazda.png" alt="mazda" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/atlassian.png" alt="atlassian" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/magazin.png" alt="magazin" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/qantas.png" alt="qantas" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/bysellads.png" alt="bysellads" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/nitro.png" alt="nitro" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/cssmania.png" alt="cssmania" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/popsugar.png" alt="popsugar" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/talantbin.png" alt="talantBin" />
+                    </li>
+                    <li class="brands-item">
+                        <img class="brands-item__img" src="./assets/brands/logos/civicrm.png" alt="civicrm" />
+                    </li>
+                </ul>
                 <p class="brands-footer">You're going to be in good company. We work with world's leading brands.</p>
             </div>
         </section>

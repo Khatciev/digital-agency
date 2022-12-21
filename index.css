@@ -103,6 +103,10 @@ a {
     color: #FFFFFF;
 }
 
+.btn-text {
+    color: #57B3FE;
+}
+
 .about>*:not(:last-child) {
     margin: 0 0 40px 0;
 }
@@ -169,7 +173,7 @@ a {
     flex-wrap: wrap;
 }
 
-.features-card {
+.features__card {
     flex: 0 1 30%;
     margin-bottom: 60px;
     padding: 50px 35px 75px 35px;
@@ -179,11 +183,11 @@ a {
     border-radius: 15px;
 }
 
-.features-card>*:not(:last-child) {
+.features__card>*:not(:last-child) {
     margin-bottom: 17.5px;
 }
 
-.card__icon-bg {
+.features__card-iconbg {
     width: 50px;
     height: 50px;
     display: flex;
@@ -192,14 +196,14 @@ a {
     border-radius: 15px;
 }
 
-.card__icon {}
+.features__card-icon {}
 
-.card-about {
+.features__card-about {
     font-size: 22px;
     font-weight: 700;
 }
 
-.card-text {
+.features__card-text {
     color: #595E64;
     font-weight: 400;
     font-size: 14px;
@@ -218,7 +222,7 @@ a {
         justify-content: center;
     }
 
-    .features-card {
+    .features__card {
         flex: 1 1 100%;
         padding: 25px 15px;
     }
@@ -370,18 +374,18 @@ a {
     color: #3B3E43;
 }
 
-.brands-logos {
+.brands-list {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
 }
 
-.brands-logos> :not(:last-child) {
+.brands-list> :not(:last-child) {
     margin-bottom: 10px;
 }
 
-.brands-wrap {
+.brands-item {
     flex: 0 1 20%;
 }
 
@@ -398,7 +402,7 @@ a {
         font-size: 30px;
     }
 
-    .brands-wrap {
+    .brands-item {
         margin-right: 10px;
     }
 }
