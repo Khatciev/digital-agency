@@ -42,6 +42,12 @@ a {
     color: #57B3FE;
     font-weight: 700;
     text-transform: uppercase;
+    transition: ease .7s;
+}
+
+.btn:hover {
+    background-color: #010101;
+
 }
 
 .container {
@@ -69,6 +75,13 @@ a {
     cursor: pointer;
     margin-right: 25px;
     color: #FFFFFF;
+    transition: ease .7s;
+}
+
+.nav-link:hover {
+    color: #000000;
+    border-bottom: 2px solid #000000;
+    ;
 }
 
 @media (max-width: 900px) {
@@ -211,6 +224,11 @@ a {
 }
 
 @media (max-width: 770px) {
+    .container-features {
+        margin: 80px 0 80px 0;
+
+    }
+
     .features {
         display: flex;
         flex-direction: column;
@@ -230,6 +248,23 @@ a {
 
 /* OUR PROCESS */
 /* ----------------------------------------------------------------------------------------------- */
+/* .dash-line {
+    transform: rotate(90deg);
+    border: 2px dashed #FFFFFF;
+    transform: rotate(90deg);
+} */
+
+.dash {
+    width: 6%;
+    transform: rotate(90deg);
+}
+
+.dash line {
+    stroke: #FFFFFF;
+    stroke-dasharray: 0.5 3.2;
+    stroke-linecap: round;
+}
+
 .process {}
 
 .process-header {
@@ -265,13 +300,12 @@ a {
 .process-cards {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
     margin-bottom: 184px;
     padding: 0 15px;
 }
 
-.process-cards>*:not(:last-child) {
-    margin-bottom: 31px;
-}
+
 
 .process-card {
     flex: 0 1 100%;
@@ -321,6 +355,11 @@ a {
 
 
 @media (max-width: 900px) {
+    .process-header {
+        margin-top: 80px;
+
+    }
+
     .process-card {
         flex-direction: column;
     }
@@ -512,9 +551,14 @@ a {
     cursor: pointer;
 }
 
-.navigation-wrap>a {
+.navigation-link {
     color: #FFFFFF;
+    transition: ease .7s;
+}
 
+.navigation-link:hover {
+    color: #fac400;
+    border-bottom: 2px solid #fac400;
 }
 
 .social-media {
@@ -523,6 +567,12 @@ a {
 
 .social-media>*:not(:last-child) {
     margin-right: 20px;
+}
+
+.social-media>li:hover {
+    -webkit-box-shadow: 4px 3px 51px 8px rgba(255, 255, 255, 1);
+    -moz-box-shadow: 4px 3px 51px 8px rgba(255, 255, 255, 1);
+    box-shadow: 4px 3px 51px 8px rgb(255, 255, 255);
 }
 
 .line {
